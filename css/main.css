@@ -1,0 +1,17 @@
+.flip-clock-wrapper {
+  font: normal 11px "nta" !important;
+}
+
+.flip-clock-wrapper ul li {
+  color: #fff !important;
+  line-height: 95px !important;
+}
+
+body {
+  background: #111;
+}
+
+.name {
+  color: #ddd;
+  font: 900 80px "nta";
+}
