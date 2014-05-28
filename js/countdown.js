@@ -20,7 +20,8 @@ $(document).ready(function() {
   var seconds = (date - now) / 1000;
   var clock = $('.counter').FlipClock(seconds, {
     clockFace : 'DailyCounter',
-    countdown : true
+    countdown : true,
+    showSeconds: false
   });
   var name = decodeURI(querystring('name'));
   $('.name').html(name);
