@@ -18,12 +18,19 @@ body {
 
 .flip-clock-label {
   color: #fff !important;
-  font-size: 20px;
-  bottom: -1.5em !important;
-  top: initial !important;
-  right: -95px !important;
+  font-size: 50px;
+  line-height: 100px;
+  position: initial !important;
+}
+
+.flip-clock-dot {
+  display: none !important;
 }
 
 .flip-clock-divider.minutes .flip-clock-label {
   right: -102px !important;
+}
+
+.flip-clock-divider {
+  width: initial !important;
 }
